@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace RaspberryServer
 {
-    class Program
+    class ConnectionHandler
     {
-        static void Main(string[] args)
-        {
+        public ConnectionHandler(string address, uint port) { }
 
-        }
+        public void StartListening() { }
     }
 }
